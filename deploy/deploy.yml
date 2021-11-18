@@ -1,4 +1,4 @@
-- hosts: qa
+- hosts: "{{ env }}
   become: yes
   tasks: 
     - name: remove any previous app services
